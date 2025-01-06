@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohith Kyatham Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Rohith Kyatham</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>A passionate Computer Science Engineer with skills in Web Development and Machine Learning.</p>
+    <button onclick="scrollToSection('projects')">Explore My Work</button>
+  </div>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>MYGATE GRIET App</h3>
+        <p>Developed a mobile application for secure campus exits using Java, PostgreSQL, and PHP.</p>
+      </div>
+      <div class="card">
+        <h3>Symptoms-Based Disease Prediction</h3>
+        <p>Machine learning model to predict diseases with Flask interface.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="card">
+        <h3>Programming Languages</h3>
+        <p>C, Java, Python, HTML, CSS, JavaScript, SQL</p>
+      </div>
+      <div class="card">
+        <h3>Databases</h3>
+        <p>MySQL</p>
+      </div>
+      <div class="card">
+        <h3>Frameworks</h3>
+        <p>Flask</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <div class="contact">
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Enter your message"></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Rohith Kyatham. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
